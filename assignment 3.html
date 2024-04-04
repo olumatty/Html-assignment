@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="name">Name</label> <br>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Your name.."
+        required
+      /> <br> <br> 
+
+      <label for="email">Email: </label><br>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Your email.."
+        required
+      />  <br> <br>
+
+      <label for="message">Message :</label><br>
+      <textarea
+        id="message"
+        name="message"
+        placeholder="Write something.."
+        required
+      ></textarea> <br> <br>
+
+      <label for="priority">Priority</label> <br>
+      <select id="priority" name="priority">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+      </select><br> <br>
+    
+      <input type="Submit" value="Submit">
+    </form>
+  </body>
+</html>
+
+
+
+
+
+html, body {
+    font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;   
+            
+            
+h1{
+    text-align: center;
+    padding-top: 0px;
+    text-decoration: aqua;
+}
+
+.Summary h2, .Education h2 {
+    color: #6EC1E4;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.Summary p, .Education p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    color : red;
+}
+
+.Education,.Summary,.Job,.Hobby, .Other {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width:auto;
+}
